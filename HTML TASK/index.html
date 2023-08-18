@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My HTML Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <style>
+        h1 {
+            color: blue;
+        }
+        
+        table {
+            width: 50%;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+</head>
+<body>
+
+<h1 style="color: blue;">Welcome to My Styled HTML Page</h1>
+
+<img src="https://www.gstatic.com/webp/gallery/4.jpg" alt="Sample Image" style="width: 300px; height: auto;">
+
+<table border="1" style="width: 50%;">
+    <tr>
+        <th style="background-color: #f2f2f2;">Header 1</th>
+        <th style="background-color: #f2f2f2;">Header 2</th>
+    </tr>
+    <tr>
+        <td>Data 1A</td>
+        <td>Data 1B</td>
+    </tr>
+    <tr>
+        <td>Data 2A</td>
+        <td>Data 2B</td>
+    </tr>
+</table>
+
+<form action="/submit" method="post" style="margin-top: 20px;">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" style="margin-right: 10px;"><br>
+    
+    <!-- Form -->
+<form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+    
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age"><br>
+    
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+    
+    <input type="submit" value="Submit">
+</form>
+    
+    <input type="submit" value="Submit" style="background-color: #4CAF50; color: white;">
+</form>
+
+</body>
+</html>
